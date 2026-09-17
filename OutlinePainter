@@ -1,0 +1,229 @@
+import org.code.neighborhood.*;
+public class OutlinePainter extends PainterPlus {
+public void moveAndPaint(String color) {
+    if (canMove()) {
+      move();
+    }
+    paint(color);
+  }
+  public void paintOutline() { 
+ // Paints Row 1
+ turnRight();
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+ turnLeft();
+moveAndPaint("black");
+moveAndPaint("black");
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+moveAndPaint("black");
+moveAndPaint("black");
+
+ // Paints Row 2
+ turnRight();
+ if (canMove()) { 
+move(); 
+ }
+ turnLeft();
+moveAndPaint("black");
+ turnRight();
+ turnRight();
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+moveAndPaint("black");
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+ turnLeft();
+moveAndPaint("black");
+ turnLeft();
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+
+ // Paints Row 3
+ turnRight();
+moveAndPaint("black");
+ turnRight();
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+moveAndPaint("black");
+moveAndPaint("black");
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+ turnLeft();
+ if (canMove()) { 
+move(); 
+ }
+ turnLeft();
+moveAndPaint("black");
+moveAndPaint("black");
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+moveAndPaint("black");
+ if (canMove()) {
+move(); 
+ }
+ paint("black");
+
+ // Paints Row 4
+ turnRight();
+ turnRight();
+ if (canMove()) { 
+move(); 
+ }
+ turnLeft();
+moveAndPaint("black");
+ turnRight();
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+
+  // Paints Row 5
+ turnLeft();
+moveAndPaint("black");
+ turnLeft();
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+
+ // Paints Row 6
+ turnRight();
+moveAndPaint("black");
+ turnRight();
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+moveAndPaint("black");
+ if (canMove()) {
+move(); 
+ }
+moveAndPaint("black");
+moveAndPaint("black");
+ if (canMove()) { 
+move(); 
+ }
+moveAndPaint("black");
+ turnLeft();
+ if (canMove()) { 
+move(); 
+ }
+ turnLeft();
+moveAndPaint("black");
+ if (canMove()) 
+ { 
+move(); 
+ }
+ if (canMove()) 
+ { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) { 
+move(); 
+ }
+ if (canMove()) 
+ { 
+move(); }
+moveAndPaint("black");
+  }
+}
